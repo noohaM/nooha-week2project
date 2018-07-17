@@ -1,3 +1,91 @@
-#header{
-    background-image: url(images\rhema-kallianpur-560711-unsplash.jpg) no-repeat;
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One');
+body{
+    background-color: #f6f6f7;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.header{
+    background: url(images\rhema-kallianpur-560711-unsplash.jpg) no-repeat;
+}
+.col-1{
+    width:55%;
+    float: left;
+}
+.bedroom{
+    width: 52%;
+    height: 100%;
+}
+.col-2{
+    width: 45%;
+    float: right;
+    margin-left: 4px; 
+}
+.visitors div{
+border: 2px;
+}
+.visitors div img{
+    margin: auto;
+
+}
+.button1{
+    margin: auto;
+    border-radius: 5px;
+}
+.button3{
+    background-color: #ffffff;
+
+    font-weight: lighter;
+    border-radius: 5px;
+    border:17px;
+    border-color: #544d41;
+
+}
+.space{
+    margin-left: 25px;
+   width: 
+}
+
+.wrapper{
+    width: 960px;
+    font-family: 'Poiret One', cursive;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.logo{
+    
+    line-height: 10px;
+    text-align: justify;
+    font-weight: 900px;
+}
+.center{
+    text-align: center;
+}
+.col-3{
+    width: 45%;
+}
+.border{
+    border: 4px;
+}
+figcaption{
+    text-align: justify;
+}
+footer{
+    background-color: #544d41;
+    font-family: 'Poiret One', cursive;
+}
+.button2{
+    background-color: #544d41;
+    color: #dddcda;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+.m{
+    padding-top: 10px;
+    margin-left: 12px;
+    font-weight: lighter;
+    color: #847f76;
+}
+.lastform{
+    margin-left: 12px;
+    border-radius: 18px;
 }
