@@ -281,11 +281,14 @@ input[value]
     width: 100%;
     height: 60px;
     z-index: 1;
+    background-color: whitesmoke;
+    
    
     
 }
 .navbar{
-    position: fixed;
+  
+    
     
 }
 #logo2{
@@ -294,7 +297,7 @@ input[value]
     top: 1%;
     left: 26%;
    
-    
+  
 }
 .section1{
     background: url(images/francesca-saraco-65449-unsplash.jpg) no-repeat;
@@ -316,5 +319,18 @@ input[value]
     top: 12%;
     font-size: 50px;
     font-weight: lighter;
+}
+.middle iframe{
+    width:65%;
+    height:230px;
+text-align: center;
+margin:5% 0% 5% 2%;
+    
+}
+.map{
+    height:300px;
+    width: 100%;
+    background-color: #dddcda;
+
 }
 
