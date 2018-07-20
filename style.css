@@ -7,7 +7,7 @@
     margin: 0px;
 }
 body{
-    background-color: #f6f6f7;
+    background-color:white;
     font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -95,10 +95,15 @@ form .date1{
 }
 
 .part2{
-    margin-top: 6%;
+    margin-top: 15%;
     margin-left: 2%;
+    padding-bottom: 10%;
+    opacity: 0.5;
 }
 
+.part2 p{
+    margin-top: 5%;
+}
 .col-2{
     width: 33%;
 }
@@ -112,7 +117,7 @@ form .date1{
     font-weight: lighter;
     border-radius: 5px;
     border-color: #544d41;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 8%;
     padding: 5% 15%;
     background-color: rgba(255, 255, 255, 0.096);
@@ -126,7 +131,7 @@ form .date1{
     font-weight: lighter;
     text-decoration: none;
     position: absolute;
-    top:25%; 
+    top:35%; 
     margin-left: 5%;
     font-size: 18px;
 }
@@ -165,6 +170,7 @@ figcaption{
 .middle{
     display: flex;
     flex-direction: row;
+ 
 
 }
 
@@ -190,9 +196,13 @@ footer{
 }
 .button2{
     background-color: #544d41;
-    color: #dddcda;
+    color: white;
     font-weight: lighter;
     border-radius: 5px;
+    width: 15em;
+    padding: 10% 10% 5% 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 }
 .m{
@@ -207,16 +217,18 @@ footer{
 
 
 .services{
- margin: 0 auto;
+ margin: 0% auto;
  background-color:#f5f5f6;
  column-count: 3;
 }
 
 #our h2{
-    text-align: center;
-margin-top: 10%;
+text-align: center;
 font-family: 'Poiret One', cursive;
-color: #544d41;
+color: #544d4177;
+background-color:#f5f5f6;
+padding-top: 7%;
+
 }
 
 #our{
@@ -244,7 +256,7 @@ color: #544d41;
     margin-left: 3%;
 }
 
-.lastForm input{
+.lastForm input  , .contact-form input {
     border-radius: 5px;
     border: 1px solid gray;
     width: 15em;
@@ -252,17 +264,12 @@ color: #544d41;
     font-size: 1em;
 }
 
-input[value]
+input[placeholder]
 {
     padding: 5% 10% 5% 10%;
     font-size:14px;
 }
 
-.button2{
-    width: 13em;
-    padding: 5% 10% 5% 10%;
-    border-color: white;
-}
 
 .footerIcon{
    position: relative;
@@ -281,20 +288,16 @@ input[value]
     width: 100%;
     height: 60px;
     z-index: 1;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     
    
     
 }
-.navbar{
-  
-    
-    
-}
+
 #logo2{
-    font-size: 30%;
+    font-size: 40%;
     position: absolute;
-    top: 1%;
+    top: 0%;
     left: 26%;
    
   
@@ -333,4 +336,122 @@ margin:5% 0% 5% 2%;
     background-color: #dddcda;
 
 }
+h1,h2,h3,h4,h,h6{
+    font-family: 'Poiret One', cursive;
+    color: #544d41;
+}
+
+ .fasi , .fari{
+    color: #544d41;
+   font-size:16px;
+   font-family: 'Poiret One', cursive;
+   padding: 8% 1%;
+} 
+.location{
+    margin: 5% 2% ;
+    padding-left: 3%
+}
+.location h2{
+    margin-bottom: 5%;
+    
+}
+.send{
+   
+
+}
+.account{
+    height:500px;
+   width: 100%;
+   background-color: #f5f5f6;
+   display: flex;
+   flex-direction: row;
+
+}
+
+
+.get-in-touch{
+    
+    font-weight: lighter;
+    color: #847f76;
+    font-size: 2em;
+   margin-top: 10%;
+    text-align:center;
+    
+}
+.contact-form{
+    width: 10%;
+    padding: 5% 5%;
+}
+
+.contact-form input, .contact-form button{
+    border-radius: 5px;
+    border: 3px solid rgba(78, 77, 77, 0.884);
+    width: 13.2em;
+    color: black;
+    font-size: 1em;
+    padding: 5px 5px;
+    margin: 10px;
+    font-family: 'Poiret One', cursive;
+
+}
+.type{
+    height: 50%;
+
+}
+input [placeholder]
+{
+padding-bottom: 60px;
+}
+.hat{
+   
+    width: 100%;
+   
+
+}
+ #feature{
+     background-color: #f6f6f7;
+     height: 100px;
+     font-family: 'Poiret One', cursive;
+     text-align: center;
+     font-weight: lighter;
+     padding: 4% 6%;
+     font-size: 25px;
+     opacity: 0.6;
+ }
+
+ .col-4{
+     width: 50%;
+     height: 100%;
+     font-family: 'Julius Sans One', sans-serif;
+ }
+
+ .sofa{
+ margin-left: 6%;
+ text-align: left;
+ opacity: 0.8;
+ }
+ .master{
+     text-align: center;
+     margin-top:  15%  ;
+     opacity: 0.6;
+     font-size: 35px;
+     margin-bottom:  15%  ;
+     margin-right: 10%;
+ }
+ .book{
+     width: 20px;
+     height: 
+ }
+ .button9{
+    background-color: #544d41;
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    width: 13em;
+    padding: 10% 10% 5% 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+
+
 
