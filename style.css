@@ -1300,9 +1300,45 @@ display: flex;
         
  }  
 
+#feature{
+    font-size: 20px;
+    padding: 8% 2%;
+}
+.middle .col-4{
+    width: 100%;
 
+}
+.standard-rooms , .standard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
  
-   }
+}
+.same-name , .standard, .standard img{
+    width: 90%;
+    margin: 0 auto;
+
+    
+}
+#perfect{
+    font-size: 30px;
+}
+#home{
+    height: 1100px;
+}
+#now{
+    height: 4%;
+    width: 45%;
+    position: relative;
+    left: 25%;
+   bottom: 65%;
+   
+
+}
+}
+ 
+   
    /*------tablet-----*/
   
 
