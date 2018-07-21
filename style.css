@@ -1279,9 +1279,13 @@ display: flex;
     padding: 2% 1%;
     font-size: 15px;
 }
+.account img{
+     height: 400px;
+     width: 100%;
+}
 
 .account{
-   height:500px;
+   height:800px;
    width: 100%;
    background-color: #f5f5f6;
    display: flex;
