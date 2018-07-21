@@ -577,7 +577,80 @@ padding-bottom: 60px;
 
 
 
- /* -----------responsive--------*/
+ /* -----------responsive---------*/
+ /*------for mobile-phones -----  */
+ /*---------ABOUT US--------------*/
+ @media only screen and (max-width:1334px)
+ { 
+    .wrapper1{width: 40%;} 
+    body {font-size:1rem;}
+   #logo{
+       text-align: left;
+       
+       position: absolute;
+       top:5%;
+      left:30% ;
+       font-size: 18px;
+   }
+   .formHead{
+       position: absolute;
+      left: 34%;
+      height: 40%;
+      width:32%;
+      top: 32%;}
+
+      .services{
+        
+      }
+
+ .icons{
+    padding: 20%;
+    margin-top: 45%;
+    
+ }
+ .col-1{
+     width: 100%;
+ }
+#room{
+    display: flex;
+    flex-direction: column;
+}
+.part2{
+    padding-bottom: 10%;
+    width: 100%;
+    
+}
+#our h2{
+    padding-top: 15%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.col-3{
+    width: 100%;
+}
+.lastForm{
+    text-align: center;
+    position: relative;
+    left: 15%;
+}
+footer h2{
+    text-align: center;
+}
+
+.footerIcon{
+   position: relative;
+    bottom: 12%;
+    left:12%;
+ }
+ .footerIcon i{
+     font-size: 20px;
+     padding-left: 8%;
+     margin-top: 1%;
+ }
+
+   }
 
 
 
