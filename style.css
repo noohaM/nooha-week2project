@@ -574,6 +574,7 @@ padding-bottom: 60px;
  }
 
 @media only screen and (min-width:1008px){
+    
 body{
     background-color:white;
     font-family: 'Julius Sans One', sans-serif;
@@ -1146,7 +1147,7 @@ padding-bottom: 60px;
 
  /* -----------responsive---------*/
  /*------for mobile-phones -----  */
- /*---------ABOUT US--------------*/
+
  @media only screen and (max-width:640px)
  { 
     .wrapper1{width: 60%;} 
@@ -1161,17 +1162,17 @@ padding-bottom: 60px;
    .formHead{
        position: absolute;
       left: 24%;
-      height: 40%;
+      height: 50%;
       width:50%;
-      top: 32%;
-      padding: 5% 1%;
+      top: 45%;
+      padding: 3% 1%;
     }
 
 .formHead button{
     width: 90%;
     position: absolute;
     right: 4%;
-    top: 65%;
+    top: 60%;
 }
 .services{
     column-count: 2;
@@ -1230,8 +1231,607 @@ footer h2{
  .header1 nav{
      height: 0px;
  }
+
+ .section1{
+     width: 100%;
+     height: 250px;
+     background-size: 100% 250px;
+
+ }
+
+ 
+ .section1 h6{
+     font-size: 30px;
+    text-align: center;
+    
+    margin-right: 100px;
+    position: absolute;
+    top: 12%;
+   width: 363px;
+   left: 20%;
+   height: 80px;
+
+    
+    
+ }
+
+
  
    }
+   /*------tablet-----*/
+  
+
+   @media only screen and (max-width:1007pxpx){
+    @media only screen and (min-width:641px){
+        body{
+            background-color:white;
+            font-family: 'Julius Sans One', sans-serif;
+        }
+        
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 1% 3%;
+        }
+        nav a:hover{
+            background: #544d415d;
+            border: 1px solid black;
+            border-radius: 3px;
+            color: white;
+        }
+        
+        nav{
+            margin-left: 24%;
+            padding-top: 2%;
+               
+        }
+        
+        .header1{
+            background: url(images/nik-lanus-41808-unsplash.jpg) no-repeat;
+            background-size: 100% 100%;
+            height: 400px;
+            margin-top: 1%;
+        }
+        .wrapper1{
+            width: 90%;
+            margin: 0 auto;
+        
+        }
+        .formHead{
+            background-color: white;
+            height: 40%;
+            width:22%;
+            position: absolute;
+            left: 50%;
+            top: 28%;
+            border-radius: 3px;
+            padding:1% 1%;
+            border: solid #544d41 1px;
+            font-size: 1em;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+        
+        
+        .date1{
+            width: 50%;
+            padding: 0 auto;
+            overflow: none;
+            font-size: 12px;
+            width: 40%;
+            height: 12%;
+            font-weight: bolder;
+            text-align:center;
+            margin-left: 46.2%;
+        }
+        .f-button{
+            text-align: center;
+            padding: 5% 25%;
+            background-color:white;
+            border: solid 1px #544d41;
+            border-radius: 3px;
+            margin-left: 10%;
+            margin-top: 10%;
+        
+        }
+        
+        .visit{
+            width: 20%;    
+           text-align: center;
+            margin-left: 40%;
+        }
+        
+        #room{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .bedroom{
+            height: 40%;
+        }
+        
+        .col-1{
+            width:66%;
+        }
+        
+        .part2{
+            margin-top: 15%;
+            margin-left: 2%;
+            padding-bottom: 10%;
+            opacity: 0.5;
+        }
+        
+        .part2 p{
+            margin-top: 5%;
+        }
+        .col-2{
+            width: 33%;
+        }
+        
+        
+        .button1{
+            margin: auto;
+            border-radius: 5px;
+        }
+        .button3{
+            font-weight: lighter;
+            border-radius: 5px;
+            border-color: #544d41;
+            margin-top: 10%;
+            margin-left: 8%;
+            padding: 5% 15%;
+            background-color: rgba(255, 255, 255, 0.096);
+        
+        }
+        
+         
+        #logo{
+            width: 960px;
+            font-family: 'Poiret One', cursive;
+            font-weight: lighter;
+            text-decoration: none;
+            position: absolute;
+            top:35%; 
+            margin-left: 5%;
+            font-size: 18px;
+        }
+        .logo{
+             text-align: center;
+            line-height: 10px;
+            margin-bottom: 10%;
+            margin-top: 0%;
+            font-weight: 900px;
+        }
+        .center{
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 3%;
+        }
+        .col-3{
+            width: 45%;
+        }
+        
+        .col-3 img{
+            width: 100%;
+            height: 200px;
+        }
+        
+        .miwan{
+            border: 3px  solid  black;
+            border-radius: 5px;
+            margin: 5% 2%;
+            padding: 3% 5%;
+         
+        }
+        figcaption{
+            margin-top: 10%;
+        }
+        
+        .middle{
+            display: flex;
+            flex-direction: row;
+         
+        
+        }
+        
+        .fa-star{
+            padding: 4% 5%;
+            color: #544d41;
+            font-size: 20px;
+            margin-top: 5%;
+             
+        }
+        
+        figcaption{
+            text-align: center;
+        }
+        .girl{
+            margin-top: 20px;
+        }
+        
+        footer{
+            background-color: #544d41;
+            font-family: 'Poiret One', cursive;
+            height: 9em;
+        }
+        .button2{
+            background-color: #544d41;
+            color: white;
+            font-weight: lighter;
+            border-radius: 5px;
+            width: 15em;
+            padding: 10% 10% 5% 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        
+        }
+        .m{
+            padding-top: 2%;
+            margin-left: 7%;
+            font-weight: lighter;
+            color: #847f76;
+            font-size: 1em;
+            margin-bottom: 1%;
+           
+        }
+        
+        
+        .services{
+         margin: 0% auto;
+         background-color:#f5f5f6;
+         column-count: 3;
+        }
+        
+        #our h2{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+        color: #544d4177;
+        background-color:#f5f5f6;
+        padding-top: 7%;
+        
+        }
+        
+        #our{
+            width: 100%;
+            height:400px;
+        }
+        .icon{
+            font-size: 3em;
+            color: #544d41;
+            margin-bottom: 15%
+        }
+        .icons{
+         text-align: center;
+         font-size: 1em;
+         font-weight: lighter;
+         padding: 20px;
+         margin-top: 60px;
+        }
+        .item-down{
+            margin-top:1.2em;
+        
+        }
+        .lastForm{
+            width:10%;
+            margin-left: 3%;
+           
+            padding-bottom: 2%
+        }
+        
+        .lastForm input  , .contact-form input {
+            border-radius: 5px;
+            border: 1px solid gray;
+            width: 15em;
+            color: black;
+            font-size: 1em;
+        }
+        
+        input[placeholder]
+        {
+            padding: 5% 10% 5% 10%;
+            font-size:14px;
+        }
+        .lastForm input{
+             margin-top: 10%;
+        }
+        
+        
+        .footerIcon{
+           position: relative;
+           bottom: 5.5em;
+           left:55%;
+        }
+        
+        .footerIcon i{
+            font-size:2em;
+            color: white;
+            padding: 3%;
+        }
+        
+        
+        .header2{
+            width: 100%;
+            height: 60px;
+            z-index: 1;
+            background-color: #ffffff;
+            
+           
+            
+        }
+        
+        #logo2{
+            font-size: 40%;
+            position: absolute;
+            top: 0%;
+            left: 26%;
+           
+          
+        }
+        .section1{
+            background: url(images/francesca-saraco-65449-unsplash.jpg) no-repeat;
+            width: 100%;
+            height: 400px;
+           background-size: 100% 400px;
+        }
+        
+        .section1 h6{
+            opacity: 0.7;
+            background-color:white;
+            padding:4% 1% 1% 1%;
+           height: 24%;
+           width: 59%;
+            z-index: 1;
+            text-align: center;
+            position: relative;
+            left: 20%;
+            top: 12%;
+            font-size: 50px;
+            font-weight: lighter;
+        }
+        .middle iframe{
+            width:65%;
+            height:230px;
+        text-align: center;
+        margin:5% 0% 5% 2%;
+            
+        }
+        .map{
+            height:300px;
+            width: 100%;
+            background-color: #dddcda;
+        
+        }
+        h1,h2,h3,h4,h,h6{
+            font-family: 'Poiret One', cursive;
+            color: #544d41;
+        }
+        
+         .fasi , .fari{
+            color: #544d41;
+           font-size:16px;
+           font-family: 'Poiret One', cursive;
+           padding: 8% 1%;
+        } 
+        .location{
+            margin: 5% 2% ;
+            padding-left: 3%
+        }
+        .location h2{
+            margin-bottom: 5%;
+            
+        }
+        
+        .account{
+            height:500px;
+           width: 100%;
+           background-color: #f5f5f6;
+           display: flex;
+           flex-direction: row;
+        
+        }
+        
+        
+        .get-in-touch{
+            
+            font-weight: lighter;
+            color: #847f76;
+            font-size: 2em;
+           margin-top: 10%;
+            text-align:center;
+            
+        }
+        .contact-form{
+            width: 10%;
+            padding: 5% 5%;
+        }
+        
+        .contact-form input, .contact-form button{
+            border-radius: 5px;
+            border: 3px solid rgba(78, 77, 77, 0.884);
+            width: 13.2em;
+            font-size: 1em;
+            padding: 5px 5px;
+            margin: 10px;
+            font-family: 'Poiret One', cursive;
+        
+        }
+        .type{
+            height: 50%;
+        
+        }
+        input [placeholder]
+        {
+        padding-bottom: 60px;
+        }
+        .hat{
+           
+            width: 100%;
+           
+        
+        }
+         #feature{
+             background-color: #f6f6f7;
+             height: 100px;
+             font-family: 'Poiret One', cursive;
+             text-align: center;
+             font-weight: lighter;
+             padding: 4% 6%;
+             font-size: 25px;
+             opacity: 0.6;
+         }
+        
+         .col-4{
+             width: 50%;
+             height: 100%;
+             font-family: 'Julius Sans One', sans-serif;
+         }
+        
+         .sofa{
+         margin-left: 6%;
+         text-align: left;
+         opacity: 0.8;
+         }
+         .master{
+             text-align: center;
+             margin-top:  15%  ;
+             opacity: 0.6;
+             font-size: 35px;
+             margin-bottom:  15%  ;
+             margin-right: 10%;
+         }
+        
+         #kitchen{
+            width: 100%;
+            background-color: #ffffff;
+         }
+         #kitchen h2{
+            font-family: 'Poiret One', cursive;
+            margin-top: 19%;
+            text-align: center;
+            opacity: 0.5;
+            padding-top: 10%;
+         }
+         #kitchen p  {
+             opacity: 0.8;
+             padding: 10% 20%;
+         }
+         .hostel{
+             width: 55%;
+            padding: 3% 1%;
+            background-color: #ffffff;
+            border: solid 2px #464139;
+            position: relative;
+            left: 5%;
+            margin-left: 15%;
+            height: 10%;
+            border-radius: 4px;
+            font-family: 'Poiret One', cursive;
+            color: #464139;
+            margin-bottom: 10%;
+         }
+         .kit{
+             
+             width: 100%;
+             
+             
+         }
+         #food{
+             width: 100%;
+             background-color: #f5f5f6;
+         }
+         .book{
+            width: 70%;
+            padding: 5% 5%;
+            background-color: #ffffff;
+            border: solid 2px #464139;
+            position: relative;
+            left: 5%;
+            margin-top: 12%;
+            height: 10%;
+            border-radius: 4px;
+            font-family: 'Poiret One', cursive;
+            color: #464139;
+             
+         }
+         .button9{
+            background-color: #544d41;
+            color: white;
+            font-weight: lighter;
+            border-radius: 5px;
+            width: 13em;
+            padding: 10% 10% 5% 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+         }
+        
+         .standard-rooms{
+            width: 100%;
+            margin: 0% auto;
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+          
+        
+         }
+         .standard{
+             width: 33.33%;
+             display: flex;
+             flex-direction: column;
+             padding: 3% 2%;
+        
+         }
+        
+         .same-name , .standard img{
+             background-color: white;
+             height:100px;
+             
+         }
+         #home{
+             background-color: #f5f5f6;
+             width: 100%;
+             height: 500px;
+         }
+        
+         .same-name p{
+             
+             font-size: 12px;
+             background-color: white;
+             border-radius: 3px;
+             font-family: 'Poiret One', cursive;
+             opacity: 12;
+             padding: 1% 3%;
+         }
+         #perfect{ 
+             text-align: center;
+             opacity: 0.5;
+             padding-top:12%;
+             padding-bottom: 2%;
+             font-size: 40px;
+             
+           }
+         .same-name h2{
+             opacity: 0.6;
+             font-size: 20px;
+             text-align: center;
+             margin-top: 2%;
+             
+         }
+         #now{
+             width: 30%;
+             background-color: #f6f6f7;
+             border: solid 2px #464139;
+             position: relative;
+             left: 35%;
+             margin-top: 12%;
+             height: 10%;
+             border-radius: 4px;
+             font-family: 'Poiret One', cursive;
+             color: #464139;
+             
+         }
+    }
+   }
+
 
    
 
