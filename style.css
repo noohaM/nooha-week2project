@@ -23,6 +23,11 @@ nav a:hover{
     color: white;
 }
 
+img , iframe{
+    max-width: 100%;
+    width: 100%;
+}
+
 nav{
     margin-left: 24%;
     padding-top: 2%;
