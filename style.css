@@ -585,6 +585,8 @@ body{
     font-family: 'Julius Sans One', sans-serif;
 }
 
+}
+
 nav a{
     text-decoration: none;
     color: black;
@@ -1146,7 +1148,7 @@ padding-bottom: 60px;
      color: #464139;
      
  }
-}
+
 
 
 
@@ -1164,6 +1166,12 @@ padding-bottom: 60px;
       left:20% ;
        font-size: 18px;
    }
+   .header1 nav a{
+    display: none;}
+    .nooha{
+        position: absolute;
+        left: 75%;
+    }
    .formHead{
        position: absolute;
       left: 24%;
@@ -1353,6 +1361,12 @@ display: flex;
             background-color:white;
             font-family: 'Julius Sans One', sans-serif;
         }
+
+        .header1 nav a{
+            display: none;}
+            .nooha{
+                position: absolute;
+                left: 75%;}
         
         nav a{
             text-decoration: none;
