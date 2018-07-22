@@ -1166,7 +1166,7 @@ padding-bottom: 60px;
       left:20% ;
        font-size: 18px;
    }
-   .header1 nav a{
+   header nav a{
     display: none;}
     .nooha{
         position: absolute;
@@ -1361,10 +1361,12 @@ display: flex;
             background-color:white;
             font-family: 'Julius Sans One', sans-serif;
         }
+        header nav a{
+            display: none;
+        }
 
-        .header1 nav a{
-            display: none;}
-            .nooha{
+      
+       .nooha{
                 position: absolute;
                 left: 75%;}
         
