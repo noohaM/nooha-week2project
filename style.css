@@ -10,6 +10,9 @@ body{
     background-color:white;
     font-family: 'Julius Sans One', sans-serif;
 }
+.flip{
+    transform: rotateY(180deg);
+}
 
 nav a{
     text-decoration: none;
@@ -58,6 +61,7 @@ nav{
     font-size: 1em;
     font-weight: bolder;
     margin-bottom: 20px;
+    
 }
 
 
@@ -71,6 +75,7 @@ nav{
     font-weight: bolder;
     text-align:center;
     margin-left: 46.2%;
+    
 }
 .f-button{
     text-align: center;
@@ -1931,6 +1936,9 @@ display: flex;
              color: #464139;
              
          }
+    }
+    header nav a{
+        display: none;
     }
    }
 
